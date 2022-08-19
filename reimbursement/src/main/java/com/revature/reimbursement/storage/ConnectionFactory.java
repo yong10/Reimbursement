@@ -15,7 +15,7 @@ public class ConnectionFactory {
 	private static final ConnectionFactory connectionFactory = new ConnectionFactory();
 	private Properties props = new Properties();
 	
-	// specific to the functionality (Not all singleton has static blocks)
+
 	
 	static {
 		try {

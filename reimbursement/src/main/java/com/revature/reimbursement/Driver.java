@@ -9,7 +9,7 @@ import com.revature.reimbursement.storage.TicketDAO;
 
 import io.javalin.Javalin;
 
-public class HelloWorld {
+public class Driver {
   public static void main(String[] args) {
 	EmployeeDAO employeeDAO = new EmployeeDAO();
 	TicketDAO ticketDAO = new TicketDAO();
